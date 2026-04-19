@@ -1,0 +1,14 @@
+# backend: bot requirements
+discord.py>=2.3.0
+sqlalchemy>=2.0.0
+python-dotenv>=1.0.0
+
+# backend: api & dashboard requirements
+fastapi>=0.100.0
+hypercorn>=0.14.0
+httpx>=0.24.0
+python-multipart>=0.0.6
+itsdangerous>=2.1.0
+
+# caching (requested in prd)
+redis>=4.6.0
